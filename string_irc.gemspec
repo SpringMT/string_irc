@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ['Spring_MT']
   gem.email         = ['today.is.sky.blue.sky@gmail.com']
   gem.homepage      = 'https://github.com/SpringMT/string_irc'
-  gem.summary       = %q{Generate colored and styled messages for IRC}
+  gem.summary       = %q{StringIRC is a Ruby port of Perl's String::IRC. Generate colored and styled messages for IRC.}
 
   gem.rubyforge_project = 'string_irc'
 
@@ -19,6 +19,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.description = <<-description
+    StringIRC is a Ruby port of Perl's String::IRC.
     Generate colored and styled messages for IRC
   description
 end
